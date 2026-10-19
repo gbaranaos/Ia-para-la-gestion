@@ -1,0 +1,1 @@
+FICHA_TECNICA_Y_RESULTADOS.pdf y gráficos de esta carpeta describen la ejecución ANTERIOR (74,0%). Los pesos integrados hoy tienen 87,8% en la metadata del ZIP nuevo. Ver MODELO_INCORPORADO_Y_METRICAS.md.

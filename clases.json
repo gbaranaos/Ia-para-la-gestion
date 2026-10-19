@@ -1,0 +1,28 @@
+{
+  "modelo": "efficientnet_b0",
+  "clases": [
+    "Bird-drop",
+    "Clean",
+    "Dusty",
+    "Electrical-damage",
+    "Physical-Damage",
+    "Snow-Covered"
+  ],
+  "test_accuracy": 0.878,
+  "test_balanced_accuracy": 0.878,
+  "test_total": 131,
+  "proveniencia_metricas": "Accuracy y balanced accuracy leídas del modelo/clases.json exportado por el usuario el 19/10/2026. Las matrices por clase de resultados/ proceden de una ejecución ANTERIOR del notebook (74,0%), no de los pesos actuales.",
+  "clip_test_accuracy": 0.481,
+  "clip_test_balanced_accuracy": 0.514,
+  "confianza_minima_orientativa": 0.65,
+  "notas": "Las probabilidades de softmax no están calibradas como riesgos; no usar en decisiones de seguridad sin evaluación humana.",
+  "fecha_exportacion_integrada": "2026-10-19",
+  "resultado_ejecucion_anterior": {
+    "test_accuracy": 0.74,
+    "test_balanced_accuracy": 0.768,
+    "recall_dusty": 0.483,
+    "dusty_como_clean": 5
+  },
+  "advertencia_comparabilidad": "CLIP se evaluó en el notebook anterior; EfficientNet en exportación más reciente. Verificar al ejecutar nuevamente la prueba del modelo final y conservar notebook ejecutado de esa sesión.",
+  "sha256_pesos": "33da0a3179d02182187fb15d36614624d49f3d15afb062dd4c513c414de32c9c"
+}

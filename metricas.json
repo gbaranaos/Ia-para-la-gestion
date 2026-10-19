@@ -1,0 +1,26 @@
+{
+  "fuente": "Salidas ya ejecutadas del notebook adjuntado por el usuario",
+  "test": 131,
+  "clip": {
+    "accuracy": 0.481,
+    "balanced_accuracy": 0.514,
+    "recall_dusty": 0.034
+  },
+  "efficientnet_b0": {
+    "accuracy": 0.74,
+    "balanced_accuracy": 0.768,
+    "recall_dusty": 0.483
+  },
+  "error_dusty_como_clean": {
+    "clip": 14,
+    "efficientnet": 5,
+    "total_dusty": 29
+  },
+  "aclaracion": "Resultados detallados de la ejecución anterior, NO corresponden al modelo.pt recibido en la nueva exportación.",
+  "ejecucion_exportada_reciente": {
+    "fuente": "solarcheck.zip/modelo/clases.json, adjuntado por usuario",
+    "accuracy": 0.878,
+    "balanced_accuracy": 0.878,
+    "matriz_confusion": "No adjuntada en la exportación nueva"
+  }
+}

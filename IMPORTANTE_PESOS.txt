@@ -1,0 +1,11 @@
+FALTA EL MODELO ENTRENADO (modelo.pt).
+El notebook original contiene código y métricas, pero no se adjuntó el archivo de pesos.
+
+PASOS:
+1. Abrir notebooks/entrenamiento.ipynb en Google Colab.
+2. Ejecutar hasta la celda de exportación del modelo (o recuperar solarcheck.zip del entrenamiento anterior).
+3. Descargar solarcheck.zip desde Colab.
+4. Ejecutar desde el directorio del proyecto: python integrar_exportacion.py /ruta/solarcheck.zip
+5. Confirmar que se creó modelo/modelo.pt y ejecutar python verificar_proyecto.py.
+
+No subir una red con pesos aleatorios: el resultado sería engañoso.
