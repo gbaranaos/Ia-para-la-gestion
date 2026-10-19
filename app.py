@@ -13,8 +13,8 @@ from inferencia import (
 )
 
 ROOT = Path(__file__).resolve().parent
-PESOS = ROOT / "modelo" / "modelo.pt"
-METADATOS = ROOT / "modelo" / "clases.json"
+PESOS = ROOT / "modelo.pt"
+METADATOS = ROOT / "clases.json"
 UMBRAL_REVISION = 0.65
 
 st.set_page_config(page_title="SolarCheck AI | Diagnóstico visual educativo",
