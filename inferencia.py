@@ -90,7 +90,7 @@ def recomendacion_con_gemini(api_key, clase, confianza, probabilidades):
     cliente = genai.Client(api_key=api_key)
     try:
         resp = cliente.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.8-flash",
             contents=prompt,
             config=types.GenerateContentConfig(
                 temperature=0.25,
